@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 *,
 *::after,
@@ -8,7 +8,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -47,9 +48,9 @@ html, body {
   position: relative;
 }
 
-.logo__cloud {
+/* .logo__cloud {
   
-}
+} */
 
 .logo__letter {
   position: absolute;
@@ -75,15 +76,29 @@ html, body {
 }
 
 .nav__item {
+  list-style-type: none;
+}
+
+.nav__item a {
   font-size: 14px;
   font-weight: 700;
-  list-style-type: none;
+  color: #333;
+  line-height: 20px;
+  text-decoration: none;
 }
 
 .buttons {
   display: flex;
   justify-content: space-between;
   flex-basis: 25%;
+}
+
+.sell__bitcoin {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+
+  color: #333;
 }
 
 .sell__bitcoin::after {
@@ -99,4 +114,64 @@ html, body {
 
   background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
   border-radius: 100px;
+}
+
+
+/* 
+==================================================================
+                    SECTION BANNER
+==================================================================
+*/
+
+.banner__BG {
+  background-image:  linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  clip-path: url(#my-clip-path);
+}
+
+.banner__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner__item {
+  flex-basis: 40%;
+}
+
+/* text */
+
+.banner__text {
+  padding-left: 60px;
+  width: 40%;
+}
+
+.banner__path p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+
+  color: #fff;
+}
+
+.banner__slogan {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+
+  color: #fff;
+}
+
+.banner__description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+
+  color: #fff;
+}
+
+/* image */
+
+.banner__image {
+  width: 55%;
 }
