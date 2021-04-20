@@ -135,6 +135,7 @@ body {
 
   background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
   border-radius: 100px;
+  border: none;
 }
 
 
@@ -357,6 +358,7 @@ body {
 */
 .team {
   padding-top: 150px;
+  padding-bottom: 60px;
 }
 
 .team__photo {
@@ -459,4 +461,55 @@ body {
   left: 20px;
 
   color: white;
+}
+
+
+/* 
+==================================================================
+                    SECTION SUBSCRIBE
+==================================================================
+*/
+
+.subscribe {
+  padding-bottom: 150px;
+}
+
+.subscribe__simple-text p {
+  white-space: pre-line;
+  padding-bottom: 60px;
+}
+
+.subscribe__form {
+  display: flex;
+  justify-content: center;
+}
+
+.email {
+  border: none;
+  padding-left: 20px;
+  width: 380px;
+  height: 45px;
+  margin-right: 10px;
+  border-radius: 100px;
+  box-shadow: 
+    -1px 0 0 1px rgba(255, 46, 175, 0.8),
+    -1px -1px 0 1px rgba(48, 32, 255, 0.3), 
+    -1px 1px 0 1px rgba(48, 32, 255, 1), 
+    0 -1px 0 1px rgba(125, 32, 255, 59%), 
+    0 1px 0 1px rgba(48, 32, 255, 1), 
+    1px -1px 0 1px rgba(178, 32, 255, 75%), 
+    1px 1px 0 1px rgba(48, 32, 255, 44%), 
+    1px 0 0 1px rgba(255, 46, 175, 1);
+}
+
+.email {
+  color: #333;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.email:focus {
+  outline: none;
 }
