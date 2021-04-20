@@ -513,3 +513,109 @@ body {
 .email:focus {
   outline: none;
 }
+
+/* 
+==================================================================
+                    SECTION FOOTER
+==================================================================
+*/
+
+.footer {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #151515;
+  color: #fff;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer--social-media svg {
+  margin-bottom: 10px;
+}
+
+.footer__simple--text {
+  color: #A2A2A2;
+  font-size: 14px;
+  line-height: 21px;
+  white-space: pre-line;
+  margin-bottom: 20px;
+}
+
+.social-media--icons {
+  display: flex;
+}
+
+.social-media--icons img {
+  margin-right: 5px;
+  padding: 5px;
+}
+
+/* footer links */
+.links--title {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+
+.container--links li{
+  list-style-type: none;
+}
+
+.container--links a {
+  color: #A2A2A2;
+  font-size: 12px;
+  line-height: 30px; 
+
+  text-decoration: none;
+}
+
+/* footer contacts */
+.contacts-info {
+  color: #A2A2A2;
+  font-size: 12px;
+  line-height: 30px; 
+  padding-bottom: 30px;
+}
+
+.contacts--title {
+  color: #fff;
+}
+
+.download-app a {
+  color: #A2A2A2;
+  font-size: 12px;
+  line-height: 30px; 
+  text-decoration: none;
+}
+
+.download-app:hover a {
+  border-bottom: 1px solid white;
+}
+
+.contacts--title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.insta--title {
+  margin-bottom: 30px;
+}
+
+.insta--photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.insta--photos img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.footer--instagram {
+  width: 25%;
+}
