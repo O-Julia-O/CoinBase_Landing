@@ -259,7 +259,15 @@ body {
   margin: auto;
   width: 80%;
 
-  box-shadow: -1px 0 0 1px rgba(255, 46, 175, 0.8), -1px -1px 0 1px rgba(48, 32, 255, 0.3), -1px 1px 0 1px rgba(48, 32, 255, 1), 0 -1px 0 1px rgba(48, 32, 255, 1), 0 1px 0 1px rgba(48, 32, 255, 1), 1px -1px 0 1px rgba(48, 32, 255, 1), 1px 1px 0 1px rgba(48, 32, 255, 1), 1px 0 0 1px rgba(255, 46, 175, 1);
+  box-shadow: 
+    -1px 0 0 1px rgba(255, 46, 175, 0.8),
+    -1px -1px 0 1px rgba(48, 32, 255, 0.3), 
+    -1px 1px 0 1px rgba(48, 32, 255, 1), 
+    0 -1px 0 1px rgba(48, 32, 255, 1), 
+    0 1px 0 1px rgba(48, 32, 255, 1), 
+    1px -1px 0 1px rgba(48, 32, 255, 1), 
+    1px 1px 0 1px rgba(48, 32, 255, 1), 
+    1px 0 0 1px rgba(255, 46, 175, 1);
 }
 
 .about__icons {
@@ -277,4 +285,67 @@ body {
 .about__simple--text {
   width: 40%;
   margin: auto;
+}
+
+/* 
+==================================================================
+                    SECTION HISTORY
+==================================================================
+*/
+
+.history {
+  padding-top: 100px;
+}
+
+.history__achieving {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.history__title--time {
+  font-size: 32px;
+  line-height: 30px;
+  font-weight: 700;
+
+  padding-bottom: 40px;
+  padding-top: 40px;
+
+  color: #FD749B;
+}
+
+.history__line--item {
+  padding: 40px;
+}
+
+.history__tree {
+  flex: 0 1 20%;
+}
+
+.history__simple--left {
+  width: 75%;
+  margin-right: 0;
+  margin-left: 25%;
+}
+
+.left__side {
+  display: flex;
+  flex: 0 1 100%;
+  flex-direction: column;
+  padding: 0 30px;
+  text-align: right;
+}
+
+.right__side {
+  display: flex;
+  flex: 0 1 100%;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 30px;
+}
+
+.history__tobecontinue {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
 }
