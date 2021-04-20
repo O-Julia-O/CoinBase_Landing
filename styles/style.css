@@ -24,7 +24,7 @@ body {
   line-height: 40px;
   font-weight: 400;
 
-  width: 29%;
+  /* width: 29%; */
 }
 
 
@@ -205,14 +205,31 @@ body {
                     SECTION TEXT
 ==================================================================
 */
+.gradient--title {
+  background: linear-gradient(181deg, #FD749B 33.59%, #281AC8 97.56%);
+
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 65px;
+}
+
+.gradient--title p {
+  background: white; /* Белый цвет фона */
+  mix-blend-mode: screen; /* Режим наложе */
+}
 
 .gradient--text {
-  background: linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
+  background: linear-gradient(181deg, #FD749B -12.41%, #281AC8 88.56%);
 }
 
 .gradient--text p {
   background: white; /* Белый цвет фона */
   mix-blend-mode: screen; /* Режим наложе */
+}
+
+.simple__text {
+  margin: auto;
+  width: 30%;
 }
 
 .intro {
@@ -224,4 +241,40 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
+
+  padding-bottom: 70px;
+}
+
+/* 
+==================================================================
+                    SECTION ABOUT
+==================================================================
+*/
+
+.about__border {
+  /* border: 1px solid black; */
+  border-radius: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin: auto;
+  width: 80%;
+
+  box-shadow: -1px 0 0 1px rgba(255, 46, 175, 0.8), -1px -1px 0 1px rgba(48, 32, 255, 0.3), -1px 1px 0 1px rgba(48, 32, 255, 1), 0 -1px 0 1px rgba(48, 32, 255, 1), 0 1px 0 1px rgba(48, 32, 255, 1), 1px -1px 0 1px rgba(48, 32, 255, 1), 1px 1px 0 1px rgba(48, 32, 255, 1), 1px 0 0 1px rgba(255, 46, 175, 1);
+}
+
+.about__icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 20px 0;
+}
+
+.about__icon {
+  margin: auto;
+}
+
+.about__simple--text {
+  width: 40%;
+  margin: auto;
 }
