@@ -358,9 +358,17 @@ li {
 }
 
 .history__achieving {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 30px;
+}
+
+.history__achieving::after {
+  content: "";
+  clear: both;
+  display: block;
 }
 
 .history__title--time {
@@ -374,34 +382,34 @@ li {
   color: #FD749B;
 }
 
-.history__line--item {
-  padding: 40px;
-}
-
 .history__tree {
-  flex: 0 1 20%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 50px;
+  transform: translateX(-50%);
+
+  background-image: url(../images/Tree.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
 }
 
-.history__simple--left {
-  width: 75%;
-  margin-right: 0;
-  margin-left: 25%;
-}
-
-.left__side {
+.history__events {
   display: flex;
-  flex: 0 1 100%;
   flex-direction: column;
-  padding: 0 30px;
+}
+
+.history__line--item {
   text-align: right;
+  width: calc(50% - 3.125rem);
+  padding-bottom: 2.5rem;
 }
 
-.right__side {
-  display: flex;
-  flex: 0 1 100%;
-  flex-direction: column;
+.history__line--item:nth-child(even) {
   text-align: left;
-  padding: 0 30px;
+  align-self: flex-end;
 }
 
 .history__tobecontinue {
@@ -453,8 +461,6 @@ li {
 .team__img {
   object-fit: cover;
   object-position: 0 0;
-
-  /* border-radius: 15px; */
 }
 
 .center--card img{
