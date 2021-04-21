@@ -98,7 +98,13 @@ body {
 
 .nav__item {
   list-style-type: none;
+  margin-bottom: 3px;
 }
+
+/* .nav__item:hover a{
+  border-bottom: 3px solid rosybrown;
+  width: 20%;
+} */
 
 .nav__item a {
   font-size: 14px;
@@ -107,6 +113,24 @@ body {
   line-height: 20px;
   text-decoration: none;
 }
+
+.nav__item:hover a::after {
+  background-color: #FD749B;
+  display: block;
+  content: "";
+  border-radius: 3px;
+  height: 3px;
+  width: 40%;
+  margin: 0 auto;
+  /* margin-bottom: 2px; */
+  /* transition: width .3s ease-in-out; */
+}
+
+/* .nav__item a:hover:after,
+.nav__item a:focus:after {
+  width: 40%;
+
+} */
 
 .buttons {
   display: flex;
@@ -187,10 +211,11 @@ body {
   color: #fff;
 }
 
-.banner__description {
+.banner__description p{
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
+  white-space: pre-line;
 
   color: #fff;
 }
@@ -572,6 +597,10 @@ body {
   text-decoration: none;
 }
 
+.links--item:hover a{
+  border-bottom: 1px solid white;
+}
+
 /* footer contacts */
 .contacts-info {
   color: #A2A2A2;
@@ -618,4 +647,8 @@ body {
 
 .footer--instagram {
   width: 25%;
+}
+
+.insta--photos img:hover {
+  opacity: 80%;
 }
