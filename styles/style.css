@@ -314,13 +314,20 @@ li {
 */
 
 .about__border {
-  border-radius: 30px;
   padding-top: 1.875rem;
   padding-bottom: 3.125rem;
+
   margin: auto;
   width: 80%;
 
-  box-shadow: 
+  border-radius: 30px;
+  border: 1px solid transparent;
+
+  background-image: linear-gradient(white, white), linear-gradient(#fd749b, #281ac8);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+
+  /* box-shadow: 
     -1px 0 0 1px rgba(255, 46, 175, 0.8),
     -1px -1px 0 1px rgba(48, 32, 255, 0.3), 
     -1px 1px 0 1px rgba(48, 32, 255, 1), 
@@ -328,7 +335,7 @@ li {
     0 1px 0 1px rgba(48, 32, 255, 1), 
     1px -1px 0 1px rgba(48, 32, 255, 1), 
     1px 1px 0 1px rgba(48, 32, 255, 1), 
-    1px 0 0 1px rgba(255, 46, 175, 1);
+    1px 0 0 1px rgba(255, 46, 175, 1); */
 }
 
 .about__icons {
@@ -565,7 +572,14 @@ li {
 
   border-radius: 100px;
 
-  box-shadow: 
+  border-radius: 30px;
+  border: 1px solid transparent;
+
+  background-image: linear-gradient(white, white), linear-gradient(#fd749b, #281ac8);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+
+  /* box-shadow: 
     -1px 0 0 1px rgba(255, 46, 175, 0.8),
     -1px -1px 0 1px rgba(48, 32, 255, 0.3), 
     -1px 1px 0 1px rgba(48, 32, 255, 1), 
@@ -573,7 +587,7 @@ li {
     0 1px 0 1px rgba(48, 32, 255, 1), 
     1px -1px 0 1px rgba(178, 32, 255, 75%), 
     1px 1px 0 1px rgba(48, 32, 255, 44%), 
-    1px 0 0 1px rgba(255, 46, 175, 1);
+    1px 0 0 1px rgba(255, 46, 175, 1); */
 }
 
 .email {
