@@ -13,6 +13,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+li {
+  list-style-type: none;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1500px;
@@ -23,8 +27,6 @@ body {
   font-size: 16px;
   line-height: 40px;
   font-weight: 400;
-
-  /* width: 29%; */
 }
 
 
@@ -101,11 +103,6 @@ body {
   margin-bottom: 3px;
 }
 
-/* .nav__item:hover a{
-  border-bottom: 3px solid rosybrown;
-  width: 20%;
-} */
-
 .nav__item a {
   font-size: 14px;
   font-weight: 700;
@@ -122,15 +119,7 @@ body {
   height: 3px;
   width: 40%;
   margin: 0 auto;
-  /* margin-bottom: 2px; */
-  /* transition: width .3s ease-in-out; */
 }
-
-/* .nav__item a:hover:after,
-.nav__item a:focus:after {
-  width: 40%;
-
-} */
 
 .buttons {
   display: flex;
@@ -139,6 +128,7 @@ body {
 }
 
 .sell__bitcoin {
+  position: relative;
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
@@ -146,9 +136,58 @@ body {
   color: #333;
 }
 
-.sell__bitcoin::after {
-  content: url('../images/icons/small__size/Dropdown_Button.svg');
+/* dropdown menu */
+
+.mainmenubtn {
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: white;
+  border: none;
+  cursor: pointer;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-child {
+  position: absolute;
+  display: none;
+  border: 1px solid #E0E0E0;
+  background-color: white;
+  min-width: 178px;
+  border-radius: 5px;
+
+  z-index: 1;
+}
+
+.dropdown-child a {
+  color: #333333;
+  padding-left: 12px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-child a:hover {
+  color: white;
+  display: block;
+  border-radius: 5px;
+
+  background: linear-gradient(180deg, #FD749B -13.56%, #281AC8 158.3%);
+}
+
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+
+/* login button */
 
 .login__button {
   font-size: 14px;
@@ -278,7 +317,6 @@ body {
 */
 
 .about__border {
-  /* border: 1px solid black; */
   border-radius: 30px;
   padding-top: 30px;
   padding-bottom: 50px;
