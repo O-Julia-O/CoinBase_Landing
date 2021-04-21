@@ -291,7 +291,7 @@ li {
 
 .simple__text {
   margin: auto;
-  width: 30%;
+  width: 32%;
 }
 
 .intro {
@@ -406,11 +406,16 @@ li {
   text-align: right;
   width: calc(50% - 3.125rem);
   padding-bottom: 2.5rem;
+
+  padding-left: 14.0625rem;
 }
 
 .history__line--item:nth-child(even) {
   text-align: left;
   align-self: flex-end;
+
+  padding-left: 0;
+  padding-right: 14.0625rem;
 }
 
 .history__tobecontinue {
@@ -654,6 +659,11 @@ li {
   padding-bottom: 1.875rem;
 }
 
+.contact--item {
+  color: #A2A2A2;
+  text-decoration: none;
+}
+
 .contacts--title {
   color: #fff;
 }
@@ -665,7 +675,8 @@ li {
   text-decoration: none;
 }
 
-.download-app:hover a {
+.download-app:hover a,
+.contact--item:hover {
   border-bottom: 1px solid white;
 }
 
