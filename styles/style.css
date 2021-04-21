@@ -10,6 +10,7 @@
 
 html,
 body {
+  font-family: 16px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -24,8 +25,8 @@ li {
 
 .paragraph {
   text-align: center;
-  font-size: 16px;
-  line-height: 40px;
+  font-size: 1rem;
+  line-height: 2.5rem;
   font-weight: 400;
 }
 
@@ -37,8 +38,8 @@ li {
   border-radius: 5px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
   background: #FD749B;
 }
 /* 
@@ -53,8 +54,8 @@ li {
   justify-content: space-between;
   align-items: baseline;
 
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding-top: 3.4375rem;
+  padding-bottom: 3.4375rem;
 }
 
 /* 
@@ -96,14 +97,14 @@ li {
 
 .nav__item {
   list-style-type: none;
-  margin-bottom: 3px;
+  margin-bottom: 0.1875rem;
 }
 
 .nav__item a {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   color: #333;
-  line-height: 20px;
+  line-height: 1.25rem;
   text-decoration: none;
 }
 
@@ -125,9 +126,9 @@ li {
 
 .sell__bitcoin {
   position: relative;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.3125rem;
 
   color: #333;
 }
@@ -135,10 +136,10 @@ li {
 /* dropdown menu */
 
 .mainmenubtn {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   color: #333;
-  line-height: 20px;
+  line-height: 1.25rem;
   text-decoration: none;
   background-color: white;
   border: none;
@@ -163,10 +164,10 @@ li {
 
 .dropdown-child a {
   color: #333333;
-  padding-left: 12px;
-  padding-right: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 0.75rem;
+  padding-right: 2.5rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
   text-decoration: none;
   display: block;
 }
@@ -186,11 +187,11 @@ li {
 /* login button */
 
 .login__button {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   color: #fff;
-  padding: 17px 57px;
-  margin-top: -20px;
+  padding: 1.0625rem 3.5625rem;
+  margin-top: -1.25rem;
 
   background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
   border-radius: 100px;
@@ -204,13 +205,13 @@ li {
 ==================================================================
 */
 .banner {
-  padding-bottom: 145px;
+  padding-bottom: 9.0625rem;
 }
 
 .banner__BG {
   background-image:  linear-gradient(174.48deg, #FD749B -12.41%, #281AC8 88.56%);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
   clip-path: url(#my-clip-path);
 }
 
@@ -226,30 +227,30 @@ li {
 /* text */
 
 .banner__text {
-  padding-left: 60px;
+  padding-left: 3.75rem;
   width: 40%;
 }
 
 .banner__path p {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.125rem;
 
   color: #fff;
 }
 
 .banner__slogan {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 3.75rem;
 
   color: #fff;
 }
 
 .banner__description p{
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 1.6875rem;
   white-space: pre-line;
 
   color: #fff;
@@ -269,9 +270,9 @@ li {
 .gradient--title {
   background: linear-gradient(181deg, #FD749B 33.59%, #281AC8 97.56%);
 
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
-  line-height: 65px;
+  line-height: 4.0625rem;
 }
 
 .gradient--title p {
@@ -294,16 +295,16 @@ li {
 }
 
 .intro {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 
 .author {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 1.5625rem;
 
-  padding-bottom: 70px;
+  padding-bottom: 4.375rem;
 }
 
 /* 
@@ -314,8 +315,8 @@ li {
 
 .about__border {
   border-radius: 30px;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 1.875rem;
+  padding-bottom: 3.125rem;
   margin: auto;
   width: 80%;
 
@@ -335,7 +336,7 @@ li {
   justify-content: space-between;
   margin: 0 auto;
   max-width: 300px;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .about__icon {
@@ -354,7 +355,7 @@ li {
 */
 
 .history {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .history__achieving {
@@ -362,7 +363,7 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .history__achieving::after {
@@ -372,12 +373,12 @@ li {
 }
 
 .history__title--time {
-  font-size: 32px;
-  line-height: 30px;
+  font-size: 2rem;
+  line-height: 1.875rem;
   font-weight: 700;
 
-  padding-bottom: 40px;
-  padding-top: 40px;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
 
   color: #FD749B;
 }
@@ -413,8 +414,8 @@ li {
 }
 
 .history__tobecontinue {
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
   font-weight: 700;
 }
 
@@ -424,8 +425,8 @@ li {
 ==================================================================
 */
 .team {
-  padding-top: 150px;
-  padding-bottom: 60px;
+  padding-top: 9.375rem;
+  padding-bottom: 3.75rem;
 }
 
 .team__photo {
@@ -451,7 +452,7 @@ li {
 .team__simple--text {
   width: 35%;
   margin: 0 auto;
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem;
 }
 
 .team__photo--card {
@@ -491,8 +492,8 @@ li {
 }
 
 .team__name--item p {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
 }
 
 .team__name--item p:nth-child(1) {
@@ -506,12 +507,12 @@ li {
 }
 
 .center--card:hover .overlayed {
-  display:block;
-  position:absolute;
-  top:0;
-  left:0;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height:95%;
+  height: 95%;
   border-radius: 15px;
   background: linear-gradient(to top, #281AC8, #FD749B);
   opacity: 40%;
@@ -536,12 +537,12 @@ li {
 */
 
 .subscribe {
-  padding-bottom: 150px;
+  padding-bottom: 9.375rem;
 }
 
 .subscribe__simple-text p {
   white-space: pre-line;
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem;
 }
 
 .subscribe__form {
@@ -551,11 +552,14 @@ li {
 
 .email {
   border: none;
-  padding-left: 20px;
   width: 380px;
   height: 45px;
-  margin-right: 10px;
+
+  padding-left: 1.25rem;
+  margin-right: 0.625rem;
+
   border-radius: 100px;
+
   box-shadow: 
     -1px 0 0 1px rgba(255, 46, 175, 0.8),
     -1px -1px 0 1px rgba(48, 32, 255, 0.3), 
@@ -569,9 +573,10 @@ li {
 
 .email {
   color: #333;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
   font-weight: 400;
+
   text-transform: uppercase;
 }
 
@@ -586,8 +591,8 @@ li {
 */
 
 .footer {
-  padding-top: 70px;
-  padding-bottom: 50px;
+  padding-top: 4.375rem;
+  padding-bottom: 3.125rem;
   background-color: #151515;
   color: #fff;
 }
@@ -598,15 +603,15 @@ li {
 }
 
 .footer--social-media svg {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .footer__simple--text {
   color: #A2A2A2;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
   white-space: pre-line;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .social-media--icons {
@@ -614,15 +619,15 @@ li {
 }
 
 .social-media--icons img {
-  margin-right: 5px;
-  padding: 5px;
+  margin-right: 0.3125rem;
+  padding: 0.3125rem;
 }
 
 /* footer links */
 .links--title {
-  font-size: 18px;
-  line-height: 30px;
-  padding-bottom: 30px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  padding-bottom: 1.875rem;
 }
 
 .container--links li{
@@ -631,8 +636,8 @@ li {
 
 .container--links a {
   color: #A2A2A2;
-  font-size: 12px;
-  line-height: 30px; 
+  font-size: 0.75rem;
+  line-height: 1.875rem; 
 
   text-decoration: none;
 }
@@ -644,9 +649,9 @@ li {
 /* footer contacts */
 .contacts-info {
   color: #A2A2A2;
-  font-size: 12px;
-  line-height: 30px; 
-  padding-bottom: 30px;
+  font-size: 0.75rem;
+  line-height: 1.875rem; 
+  padding-bottom: 1.875rem;
 }
 
 .contacts--title {
@@ -655,8 +660,8 @@ li {
 
 .download-app a {
   color: #A2A2A2;
-  font-size: 12px;
-  line-height: 30px; 
+  font-size: 0.75rem;
+  line-height: 1.875rem; 
   text-decoration: none;
 }
 
@@ -665,14 +670,14 @@ li {
 }
 
 .contacts--title {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
   font-weight: 400;
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
 }
 
 .insta--title {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .insta--photos {
@@ -681,8 +686,8 @@ li {
 }
 
 .insta--photos img {
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
 }
 
 .footer--instagram {
