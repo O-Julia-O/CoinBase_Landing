@@ -126,6 +126,7 @@ li {
   display: flex;
   justify-content: space-between;
   flex-basis: 25%;
+  align-items: flex-end;
 }
 
 .sell__bitcoin {
@@ -169,6 +170,7 @@ li {
 .dropdown {
   position: relative;
   display: inline-block;
+  border: 20px solid transparent;
 }
 
 .dropdown-child::before {
