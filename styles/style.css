@@ -307,31 +307,25 @@ li {
                     SECTION TEXT
 ==================================================================
 */
-.gradient--title {
-  background: linear-gradient(181deg, #FD749B 33.59%, #281AC8 97.56%);
-
+.gradient--title p {
   font-size: 1.75rem;
   font-weight: 700;
   line-height: 4.0625rem;
-}
 
-.gradient--title p {
-  background: white; /* Белый цвет фона */
-  mix-blend-mode: screen; /* Режим наложе */
-}
-
-.gradient--text {
-  background: linear-gradient(181deg, #FD749B -12.41%, #281AC8 88.56%);
+  background: linear-gradient(181deg, #FD749B 33.59%, #281AC8 97.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .gradient--text p {
-  background: white; /* Белый цвет фона */
-  mix-blend-mode: screen; /* Режим наложе */
+  background: linear-gradient(181deg, #FD749B 33.59%, #281AC8 97.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .simple__text {
   margin: auto;
-  width: 32%;
+  white-space: pre-line;
 }
 
 .intro {
