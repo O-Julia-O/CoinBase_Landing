@@ -20,6 +20,8 @@ li {
 
 .container {
   margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
   max-width: 1500px;
 }
 
@@ -56,6 +58,12 @@ li {
 
   padding-top: 3.4375rem;
   padding-bottom: 3.4375rem;
+}
+
+@media (max-width: 1025px) {
+  .navigation {
+    display: none;
+  }
 }
 
 /* 
@@ -236,7 +244,12 @@ li {
   border: none;
 }
 
-
+@media screen and (max-width: 1024px) {
+  .sell__bitcoin {
+    display: none;
+  }
+  
+}
 /* 
 ==================================================================
                     SECTION BANNER
@@ -300,6 +313,38 @@ li {
 
 .banner__image {
   width: 55%;
+}
+
+.banner__image img {
+  max-width: 100%
+}
+
+@media screen and (max-width: 860px) {
+  .banner__content {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .banner__text {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .banner__slogan p {
+    font-size: 4vw;
+    line-height: 1.5;
+  }
+
+  .banner__path p {
+    font-size: 1vw;
+    line-height: 1.5;
+  }
+
+  .banner__description p {
+    font-size: 2vw;
+    line-height: 1.5;
+  }
 }
 
 /* 
@@ -430,13 +475,19 @@ li {
   top: 0;
   left: 50%;
   height: 100%;
-  width: 50px;
+  width: 3.125rem;
   transform: translateX(-50%);
 
   background-image: url(../images/Tree.svg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
+}
+
+@media screen and (max-width: 1240px) {
+  .history__tree {
+    width: 30px
+  }
 }
 
 .history__events {
@@ -464,6 +515,20 @@ li {
   font-size: 0.75rem;
   line-height: 1.25rem;
   font-weight: 700;
+}
+
+/* media-queries */
+
+@media (max-width: 1025px) {
+  .history__tree {
+    display: none;
+  }
+
+  .history__events .history__line--item {
+    align-self: center;
+    text-align: center;
+    padding: 0;
+  }
 }
 
 /* 
@@ -576,6 +641,23 @@ li {
   color: white;
 }
 
+@media screen and (max-width: 1260px) {
+  .team__photo {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .team__photo .team__photo--card .team__img{
+    position: static;
+    width: 210px;
+    height: 210px;
+    border-radius: 5px;
+
+  }
+
+
+}
+
 
 /* 
 ==================================================================
@@ -638,6 +720,13 @@ li {
   outline: none;
 }
 
+@media screen and (max-width: 640px) {
+  .email {
+    margin-bottom: 2rem;
+  }
+  
+}
+
 /* 
 ==================================================================
                     SECTION FOOTER
@@ -653,6 +742,7 @@ li {
 
 .footer__container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -756,4 +846,15 @@ li {
 
 .insta--photos img:hover {
   opacity: 80%;
+}
+
+@media screen and (max-width: 640px) {
+  .footer__container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .insta--photos {
+    width: 100%;
+  }
 }
