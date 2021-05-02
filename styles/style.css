@@ -435,6 +435,12 @@ li {
   margin: auto;
 }
 
+@media screen and (max-width: 750px) {
+  .about__image img {
+    max-width: 100%;
+  }
+}
+
 /* 
 ==================================================================
                     SECTION HISTORY
@@ -855,6 +861,12 @@ li {
   }
 
   .insta--photos {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .footer--instagram {
     width: 100%;
   }
 }
